@@ -7,7 +7,10 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hi there!');
+  res.send(`
+  <h1>🍋 Welcome to the Landing Page! 🍊</h1>
+  <h2> Work in Progress (obviously) </h2>  
+   `);
 });
 
 app.listen(PORT, () => {
